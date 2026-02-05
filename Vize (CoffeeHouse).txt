@@ -1,0 +1,38 @@
+1. Úvod
+Tento dokument definuje vizi projektu CoffeeHouse, což je webová aplikace navržená pro potřeby moderní kavárny. Cílem systému je digitalizace procesu prezentace nabídky, správy sortimentu a interakce se zákazníky prostřednictvím internetu. Aplikace řeší problém statických a těžko aktualizovatelných jídelních lístků a poskytuje platformu pro online objednávky.
+
+2. Cíle projektu
+Hlavním účelem systému je zefektivnit provoz kavárny a zlepšit uživatelský zážitek zákazníků. Mezi klíčové cíle patří:
+
+    Online dostupnost: Zpřístupnit aktuální menu široké veřejnosti 24/7.
+
+    Digitalizace objednávek: Umožnit registrovaným zákazníkům vytvářet objednávky (nákupní košík) přímo z webového prohlížeče.
+
+    Snadná správa: Poskytnout provozovateli (administrátorovi) nástroj pro rychlou editaci, přidávání a mazání produktů bez nutnosti zásahu do zdrojového kódu.
+
+    Bezpečnost: Zajistit řízení přístupu na základě uživatelských rolí (Host, Uživatel, Administrátor).
+
+3. Cílové skupiny (Akteři)
+Systém je navržen pro tři hlavní skupiny uživatelů:
+
+    Neregistrovaný návštěvník (Host): Potenciální zákazník, který si chce prohlédnout nabídku, ceny a kontaktní informace. Nemůže vytvářet objednávky.
+
+    Registrovaný zákazník (Uživatel): Stálý klient, který má vytvořený účet. Má oprávnění vkládat zboží do košíku a odesílat objednávky.
+
+    Administrátor (Správce): Vlastník nebo manažer kavárny. Má plný přístup do administrativní sekce, kde spravuje databázi produktů (CRUD operace) a má přehled o uživatelích.
+
+4. Klíčové funkcionality
+Systém bude obsahovat následující moduly a funkce:
+
+    Interaktivní menu: Dynamicky generovaný seznam produktů (káva, dezerty) s názvem, popisem, cenou a fotografií.
+
+    Nákupní košík: Funkce pro přidávání produktů do dočasné paměti (session) s výpočtem celkové ceny. Tato funkce je dostupná pouze po přihlášení.
+
+    Autentizace a autorizace: Bezpečný systém přihlašování a registrace. Rozlišení práv mezi běžným uživatelem a administrátorem.
+
+    Administrační panel: Zabezpečené rozhraní pro správu obsahu. Umožňuje přidávat nové položky do menu, upravovat ceny nebo mazat neaktuální produkty.
+
+    Responzivní design: Webová aplikace bude plně optimalizována pro zobrazení na mobilních telefonech, tabletech i stolních počítačích.
+
+5. Technické řešení
+Aplikace je postavena na technologii ASP.NET Core MVC. Data o produktech a uživatelích jsou ukládána do strukturovaných JSON souborů, což zajišťuje jednoduchost, přenositelnost a snadnou zálohu dat bez nutnosti složité konfigurace databázového serveru.

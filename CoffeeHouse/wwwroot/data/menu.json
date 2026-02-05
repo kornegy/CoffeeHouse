@@ -1,0 +1,16 @@
+[
+  {
+    "Id": 2,
+    "Name": "Latte",
+    "Description": "Milk \u002B espresso",
+    "Price": 3.2,
+    "ImageUrl": ""
+  },
+  {
+    "Id": 3,
+    "Name": "Flat White",
+    "Description": "Silky microfoam",
+    "Price": 3.5,
+    "ImageUrl": ""
+  }
+]

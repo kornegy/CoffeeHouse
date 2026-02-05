@@ -1,0 +1,52 @@
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<div class="container" style="padding-top: 120px;">
+
+    <div class="row align-items-center">
+        <div class="col-lg-6 mb-5">
+            <h2 class="display-5 fw-bold mb-4 text-white">Contact us</h2> <p class="text-secondary mb-5">Do you have any questions or would you like to reserve a table? Fill out the form and we will contact you shortly..</p>
+
+            <div class="d-flex align-items-center mb-4">
+                <div class="bg-dark p-3 rounded-circle me-3 border border-secondary">
+                    <i class="fas fa-map-marker-alt text-warning fa-lg"></i>
+                </div>
+                <div>
+                    <h5 class="mb-0 text-white">Address</h5>
+                    <p class="text-secondary mb-0">Studentska 1770/1, Poruba, Ostrava</p>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center mb-4">
+                <div class="bg-dark p-3 rounded-circle me-3 border border-secondary">
+                    <i class="fas fa-phone-alt text-warning fa-lg"></i>
+                </div>
+                <div>
+                    <h5 class="mb-0 text-white">Phone</h5>
+                    <p class="text-secondary mb-0"> +(420) 000-000-000</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="card p-4 border-0 shadow-lg" style="background-color: #1e1e1e;">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label text-secondary">Your name</label>
+                        <input type="text" class="form-control bg-dark text-light border-secondary" placeholder="Ivan Ivanov">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-secondary">Email</label>
+                        <input type="email" class="form-control bg-dark text-light border-secondary" placeholder="ivan@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-secondary">Message</label>
+                        <textarea class="form-control bg-dark text-light border-secondary" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning w-100 py-2 fw-bold">Send message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

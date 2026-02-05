@@ -1,0 +1,36 @@
+﻿@model CoffeeHouse.Models.CoffeeItem
+
+@{
+    ViewData["Title"] = "Add item";
+}
+
+<div class="container mt-5 pt-5 d-flex justify-content-center">
+    <div class="card bg-dark border-warning shadow-lg" style="width: 100%; max-width: 500px;">
+        <div class="card-header bg-warning text-dark fw-bold">
+            New menu item
+        </div>
+        <div class="card-body">
+            <form asp-action="Create" method="post">
+                <div class="mb-3">
+                    <label class="form-label text-secondary">Name</label>
+                    <input asp-for="Name" class="form-control bg-black text-white border-secondary" required />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label text-secondary">Description</label>
+                    <textarea asp-for="Description" class="form-control bg-black text-white border-secondary" rows="3"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label text-secondary">Price</label>
+                    <input asp-for="Price" type="number" step="0.1" class="form-control bg-black text-white border-secondary" required />
+                </div>
+
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-warning fw-bold">Save</button>
+                    <a asp-action="MenuEditor" class="btn btn-outline-light">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

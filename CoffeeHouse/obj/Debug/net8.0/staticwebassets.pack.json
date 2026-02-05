@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/nazarkoval/Downloads/coffeHouse/CoffeeHouse/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/nazarkoval/Downloads/coffeHouse/CoffeeHouse/wwwroot/data/menu.json",
+      "PackagePath": "staticwebassets/data/menu.json"
+    },
+    {
+      "Id": "/Users/nazarkoval/Downloads/coffeHouse/CoffeeHouse/wwwroot/data/users.json",
+      "PackagePath": "staticwebassets/data/users.json"
+    },
+    {
+      "Id": "/Users/nazarkoval/Downloads/coffeHouse/CoffeeHouse/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.CoffeeHouse.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.CoffeeHouse.props",
+      "PackagePath": "build\\CoffeeHouse.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.CoffeeHouse.props",
+      "PackagePath": "buildMultiTargeting\\CoffeeHouse.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.CoffeeHouse.props",
+      "PackagePath": "buildTransitive\\CoffeeHouse.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

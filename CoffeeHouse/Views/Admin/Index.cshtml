@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "Admin-panel";
+}
+
+<div class="container py-5 mt-5">
+    <div class="card bg-dark text-white border-warning shadow-lg">
+        <div class="card-header bg-warning text-dark">
+            <h3 class="mb-0"><i class="fas fa-user-shield me-2"></i>Control Panel</h3>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Welcome back, Shef!</h4>
+            <p class="card-text text-secondary">Here you can manage your restaurants.</p>
+
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="d-grid gap-2">
+                        <a href="/Admin/MenuEditor" class="btn btn-outline-light text-start w-100">
+                            <i class="fas fa-edit me-2 text-warning"></i> Edit menu
+                        </a>
+                        <button class="btn btn-outline-light text-start">
+                            <i class="fas fa-users me-2 text-warning"></i> User management
+                        </button>
+                        <button class="btn btn-outline-light text-start">
+                            <i class="fas fa-clipboard-list me-2 text-warning"></i> View orders
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="alert alert-info bg-dark border-secondary text-light">
+                        <h5 class="alert-heading">Today's statistics</h5>
+                        <p>Visitors: 120</p>
+                        <p>Orders: 45</p>
+                        <hr>
+                        <p class="mb-0">The system is working properly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
