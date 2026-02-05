@@ -1,0 +1,7 @@
+# Считать все файлы Razor частью языка C#
+*.cshtml linguist-language=CSharp
+
+# Игнорировать статические библиотеки и CSS при подсчете статистики
+wwwroot/lib/* linguist-vendored
+wwwroot/css/* linguist-vendored
+wwwroot/js/* linguist-vendored˚
