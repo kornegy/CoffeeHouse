@@ -37,4 +37,4 @@ Secure Authentication: A robust system for registration and login with role diff
 Framework: ASP.NET Core MVC.
 Frontend: HTML5, CSS3 (Bootstrap), JavaScript, Razor Views.
 Data Persistence: JSON-based file storage (System.IO, System.Text.Json).
-Development Environment: JetBrains Rider / Visual Studio.
+Development Environment: JetBrains Rider
